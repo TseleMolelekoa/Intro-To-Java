@@ -233,3 +233,8 @@ logallrefupdates = true
 [remote "origin"]
 url = gituser@git.server.com:project.git
 fetch = +refs/heads/*:refs/remotes/origin/*
+
+
+# Day 3
+# Day 4
+# Day 5
