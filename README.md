@@ -1,6 +1,169 @@
 # Intro-To-Java
 
 # Day !
+WEEK 1 DAY 1 
+
+What is java? 
+
+Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. JAVA was developed by Sun Microsystems Inc and first released in 1991, later acquired by Oracle Corporation. 
+
+ 
+
+ 
+
+Java Components 
+
+Java Virtual Machine (JVM) 
+
+Generally referred as JVM, it’s the primary function is to execute the bytecode produced by compiler. 
+
+Java Development Kit (JDK) 
+
+This is a complete java development kit that includes JRE (Java Runtime Environment), compilers and various tools like JavaDoc, Java debugger etc. 
+
+Java Runtime Environment (JRE) 
+
+JRE allows you to run java programs, it includes JVM, browser plugins and applets support. When you only need to run a java program on your computer, you would only need JRE. 
+
+ 
+
+Main Java features 
+
+Platform Independence: 
+
+Java is designed to be platform-independent, meaning that Java programs can run on any device with a compatible Java Virtual Machine (JVM). 
+
+Object-Oriented Programming (OOP): 
+
+Java is a fully object-oriented programming language, emphasizing concepts such as encapsulation, inheritance, and polymorphism. 
+
+Simple and Easy to Learn: 
+
+Java was designed to be straightforward and easy to learn for programmers. It eliminates complex features such as pointers, operator overloading, and multiple inheritance, making it more accessible for developers. 
+
+Robust and Secure: 
+
+Java incorporates features like strong memory management, exception handling, and a comprehensive set of APIs, which contribute to the robustness and reliability of Java applications. 
+
+Multithreading: 
+
+Java supports multithreading, allowing concurrent execution of multiple threads within a program. 
+
+ 
+
+Install Java Development Kit (JDK): 
+
+Visit the Oracle JDK download page or OpenJDK to download and install the latest version of the Java Development Kit (JDK). Follow the installation instructions for your operating system. 
+
+ 
+
+Set the JAVA_HOME environment variable: 
+
+On Windows: Right-click on "This PC" or "Computer," select "Properties," click on "Advanced system settings," go to the "Advanced" tab, and click "Environment Variables." Add a new system variable with the name JAVA_HOME and the path to your JDK installation (e.g., C:\Program Files\Java\jdk1.8.0_291). 
+
+Typical Structure of a Java program 
+
+A typical structure of a Java program contains the following elements: 
+
+Package declaration 
+
+Import statements 
+
+Comments 
+
+Class definition 
+
+Attributes 
+
+Methods/Behaviours 
+
+ 
+
+DAY 2 
+
+ 
+
+What is a variable? 
+
+A variable is a name given to a memory location. It is the basic unit of storage in a program. 
+
+The value stored in a variable can be changed during program execution. 
+
+A variable is only a name given to a memory location; all the operations done on the variable effects that memory location. 
+
+In Java, all the variables must be declared before use. 
+
+How to declare variables? 
+
+type: Type of data that can be stored in this variable. 
+
+name: Name given to the variable. 
+
+It can be assigned values in two ways: 
+
+Variable Initialization 
+
+Assigning value by taking input. 
+
+ 
+
+Declaring and initialize variables: 
+
+datatype: Type of data that can be stored in this variable. 
+
+variable_name: Name given to the variable. 
+
+value: It is the initial value stored in the variable. 
+
+Declaring variables examples 
+
+float simpleInterest; - Declaring float variable 
+
+int myAge = 19; - Declaring and Initializing integer variable 
+
+char firstLetter = 'h'; - Declaring and Initializing character variable 
+
+ 
+
+ 
+
+There are three types of variables in Java: 
+
+ 
+
+Local Variables: A variable defined within a block or method or constructor is called local variable. 
+
+Instance Variables: Instance variables are non-static variables and are declared in a class outside any method, constructor or block. 
+
+Static Variables: Static variables are also known as Class variables. 
+
+ 
+
+Data types in Java: 
+
+1) Primitive data types - A primitive data type specifies the size and type of variable values, and it has no additional methods. 
+
+2)  Non-primitive data types – Arrays and Strings are non-primitive data types, these are the datatypes which have instances like objects. Hence, they are called reference variables. They are primarily classes, arrays, strings or interfaces. 
+
+ 
+
+There are eight primitive data types in Java: 
+
+Byte 
+
+Short 
+
+Int 
+
+Long 
+
+Float 
+
+Double 
+
+Boolean 
+
+Cha
 # Day 2
 # Day 3
 # Day 4
