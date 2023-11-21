@@ -1,7 +1,7 @@
 # Intro-To-Java
-
+# WEEK 1 
 # Day !
-WEEK 1 DAY 1 
+
 
 What is java? 
 
