@@ -234,6 +234,10 @@ logallrefupdates = true
 url = gituser@git.server.com:project.git
 fetch = +refs/heads/*:refs/remotes/origin/*
 
+Use git merge when you want to keep a clear record of when and where changes were merged. Merging is a safe option and is appropriate for public branches.
+
+Use git rebase when you want to create a more linear and cleaner commit history. This is beneficial for feature branches, but be cautious when rebasing commits that have been pushed to a shared repository, as it rewrites history.
+
 
 # Day 3
 # Day 4
