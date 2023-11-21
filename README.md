@@ -1,6 +1,6 @@
 # Intro-To-Java
 # WEEK 1 
-# Day !
+# Day 1
 
 
 What is java? 
@@ -79,6 +79,10 @@ Methods/Behaviours
 
  
 
+
+
+# Day 2
+
 DAY 2 
 
  
@@ -137,15 +141,13 @@ Instance Variables: Instance variables are non-static variables and are declared
 
 Static Variables: Static variables are also known as Class variables. 
 
- 
-
-Data types in Java: 
+## Data types in Java: 
 
 1) Primitive data types - A primitive data type specifies the size and type of variable values, and it has no additional methods. 
 
 2)  Non-primitive data types – Arrays and Strings are non-primitive data types, these are the datatypes which have instances like objects. Hence, they are called reference variables. They are primarily classes, arrays, strings or interfaces. 
 
- 
+
 
 There are eight primitive data types in Java: 
 
@@ -162,9 +164,6 @@ Float
 Double 
 
 Boolean 
-
-Cha
-# Day 2
 # Day 3
 # Day 4
 # Day 5 JAva Modifiers
