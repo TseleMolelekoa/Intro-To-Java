@@ -112,4 +112,19 @@ public class Puppy {
 Output
 
 Age: 2, name: Tommy
+#===========================================================================================================================================week 2=============================================================================================================================================================================
 
+# Day 1
+# Day2
+Git is a distributed revision control and source code management system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development. Git is a free software distributed under the terms of the GNU General Public License version 2. This tutorial explains how to use Git for project version control in a distributed environment while working on web-based and non web-based applications development. We can  use Git to handle all levels of Java and Non-Java projects. So an exposure to software development life cycle and working knowledge of developing web-based and non web-based applications is a good start to work with GIt tools.Git comes with some tools like Git Bash, Git GUI to provide the interface between machine and user. It supports inbuilt as well as third-party tools.Git comes with built-in GUI tools like git bash, git-gui, and gitk for committing and browsing. It also supports several third-party tools for users looking for platform-specific experience.
+Git Package Tools
+Git provides powerful functionality tools such as commands, command line, Git GUI. Let's have a glimpse of some essential package tools.
+GitBash
+Git Bash is an application for the Windows environment. It is used as Git command line for windows. Git Bash provides an emulation layer for a Git command-line experience. Bash is an abbreviation of Bourne Again Shell. Git package installer contains Bash, bash utilities, and Git on a Windows operating system.
+Git Bash Commands
+Git Bash comes with some additional commands that are stored in the /usr/bin directory of the Git Bash emulation. Git Bash can provide a robust shell experience on Windows. Git Bash comes with some essential shell commands like Ssh, scp, cat, find.
+
+Git Bash also includes the full set of Git core commands like git clone, git commit, git checkout, git push, and more.
+
+Git GUI
+Git GUI is a powerful alternative to Git BASH. It offers a graphical version of the Git command line function, as well as comprehensive visual diff tools. We can access it by simply right click on a folder or location in windows explorer. Also, we can access it through the command line by typing below command.
