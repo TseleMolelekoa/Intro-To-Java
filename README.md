@@ -1748,6 +1748,109 @@ Age: 2, name: Tommy
 # =====================================================================================================================================week 2====================================================================================================================================================================
 
 # Day 1
+## What is Git? 
+
+- **Definition:** A distributed version control system for tracking changes in source code. 
+
+- **Founder:** Linus Torvalds (2005). 
+
+## Key Features 
+
+ 
+
+1. **Distributed System** 
+
+   - Full copies for every user. 
+
+   - Enables offline work and collaboration without a central server. 
+
+2. **Snapshots, Not Deltas** 
+
+   - Stores entire project snapshots at each point in time. 
+
+   - Faster operations and data integrity. 
+
+3. **Branching and Merging** 
+
+   - Easy parallel development on separate branches. 
+
+   - Seamless merging of changes. 
+
+4. **Commit Hashing** 
+
+   - Unique hash for each commit. 
+
+   - Guarantees project history integrity. 
+
+5. **Staging Area** 
+
+   - Selective commits for flexibility. 
+
+   - Clear separation of working directory and repository. 
+
+ 
+
+## Benefits of Using Git 
+
+ 
+
+1. **Version Control** 
+
+   - Detailed history and rollback capabilities. 
+
+   - Facilitates collaborative development. 
+
+ 
+
+2. **Speed and Efficiency** 
+
+   - Fast, local operations. 
+
+   - Offline work capabilities. 
+
+3. **Distributed Development** 
+
+   - Reduces reliance on a central server. 
+
+   - Every user has a complete repository. 
+
+ 
+
+4. **Traceability and Accountability** 
+
+   - Unique commit hashes for clear tracking. 
+
+   - Records contributor contributions. 
+
+5. **Branching and Merging** 
+
+   - Parallel development and smooth merging. 
+
+   - Supports different development streams. 
+
+ 
+
+## Git Ecosystem 
+
+- **GitHub and GitLab** 
+
+  - Hosting platforms with collaboration features. 
+
+  - Issue tracking, pull requests, and more. 
+
+- **Community and Open Source** 
+
+  - Large and active community. 
+
+  - Encourages collaboration. 
+
+ 
+
+- **Integration and Compatibility** 
+
+  - Rich set of tools and CI/CD pipeline support. 
+
+  - Flexible for various projects and workflows. 
 # Day2
 Git is a distributed revision control and source code management system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development. Git is a free software distributed under the terms of the GNU General Public License version 2. This tutorial explains how to use Git for project version control in a distributed environment while working on web-based and non web-based applications development. We can  use Git to handle all levels of Java and Non-Java projects. So an exposure to software development life cycle and working knowledge of developing web-based and non web-based applications is a good start to work with GIt tools.Git comes with some tools like Git Bash, Git GUI to provide the interface between machine and user. It supports inbuilt as well as third-party tools.Git comes with built-in GUI tools like git bash, git-gui, and gitk for committing and browsing. It also supports several third-party tools for users looking for platform-specific experience.
 Git Package Tools
