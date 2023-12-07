@@ -1976,5 +1976,343 @@ Use git rebase when you want to create a more linear and cleaner commit history.
 
 
 # Day 3
-# Day 4
-# Day 5
+
+
+Basic commands of Git 
+
+  
+
+### Git Config 
+
+```bash 
+
+$ git config --global user.name "Your Name" 
+
+$ git config --global user.email "youremail@example.com" 
+
+``` 
+
+  
+
+### Git Init 
+
+```bash 
+
+$ git init 
+
+``` 
+
+  
+
+### Git Clone 
+
+```bash 
+
+$ git clone repository_url 
+
+``` 
+
+  
+
+### Git Add 
+
+```bash 
+
+$ git add filename 
+
+$ git add * 
+
+``` 
+
+  
+
+### Git Commit 
+
+```bash 
+
+$ git commit -m "Commit message" 
+
+$ git commit -a 
+
+``` 
+
+  
+
+### Git Status 
+
+```bash 
+
+$ git status 
+
+``` 
+
+  
+
+### Git Push 
+
+```bash 
+
+$ git push origin master 
+
+$ git push --all 
+
+``` 
+
+  
+
+### Git Pull 
+
+```bash 
+
+$ git pull origin master 
+
+``` 
+
+  
+
+### Git Branch 
+
+```bash 
+
+$ git branch 
+
+``` 
+
+  
+
+### Git Merge 
+
+```bash 
+
+$ git merge branch_name 
+
+``` 
+
+ Git Log 
+
+```bash 
+
+$ git log 
+
+$ git log -3 
+
+``` 
+
+Staging and commit 
+
+ 
+
+Absolutely! Let's break down the major staging and committing operations in Git: 
+
+### Git Add 
+
+  
+
+- **Purpose**: Adds file contents to the staging area, preparing them for the next commit. 
+
+- **Usage**: 
+
+  - To add a single file: `$ git add filename` 
+
+  - To add all files: `$ git add -A` or `$ git add .` 
+
+  - To add only updated and newly created files: `$ git add --ignore-removal` 
+
+  - To add only modified and deleted files: `$ git add -u` 
+
+  - To add files using wildcard: `$ git add *.java` 
+
+  
+
+### Git Commit 
+
+  
+
+- **Purpose**: Records changes in the repository by creating a commit. 
+
+- **Usage**: 
+
+  - Interactive commit message: `$ git commit` 
+
+  - Committing all previously added files: `$ git commit -a` 
+
+  - Adding a commit message: `$ git commit -m "Commit message"` 
+
+  - Amending the last commit's message: `$ git commit --amend` 
+
+  
+
+### Git Clone 
+
+  
+
+- **Purpose**: Creates a local copy of a remote repository. 
+
+- **Usage**: `$ git clone <repository URL>` 
+
+  
+
+### Git Fork 
+
+  
+
+- **Purpose**: Creates a copy of a repository, often used for proposing changes or experimenting without affecting the original project. 
+
+- **Usage**: Done through the Git service platform (e.g., GitHub). Forking is not a Git command; it's a feature provided by Git service providers like GitHub. 
+
+  
+
+# Day 4 
+
+Inspect and Undo changes 
+
+ 
+
+Git log is a vital tool in version control systems like Git, offering a comprehensive history of a repository's changes. It includes commit hashes, author details, commit dates, and commit messages. The following options enhance its functionality: 
+
+  
+
+### Basic Git Log 
+
+```bash 
+
+$ git log 
+
+``` 
+
+Displays recent commits with their unique identifiers, dates, authors, and commit details. 
+
+  
+
+### Git Log Stat 
+
+```bash 
+
+$ git log --stat 
+
+``` 
+
+Shows modified files, line additions/deletions, and a summary of changes. 
+
+  
+
+### Git Log Patch 
+
+```bash 
+
+$ git log -p 
+
+``` 
+
+Reveals modified files and the specific line changes made within those files. 
+
+  
+
+### Git Checkout 
+
+Git checkout switches between different versions of a repository, be it files, commits, or branches. Careful when switching branches as it alters the working directory files to match the chosen branch. 
+
+  
+
+### Operations with Git Checkout 
+
+- **Checkout Branch** 
+
+```bash 
+
+$ git checkout <branchname> 
+
+``` 
+
+Switches between branches. 
+
+  
+
+- **Create and Switch Branch** 
+
+```bash 
+
+$ git checkout -b <branchname> 
+
+``` 
+
+Creates and switches to a new branch simultaneously. 
+
+  
+
+- **Checkout Remote Branch** 
+
+```bash 
+
+$ git checkout <remotebranch> 
+
+``` 
+
+Allows accessing and working on a remote branch after fetching its contents. 
+
+  
+
+These commands aid in navigating and inspecting a repository's history, tracking changes, and managing branches efficiently in Git. 
+
+Collaborating 
+
+Sure, here's a simplified summary: 
+
+  
+
+### Git Fetch 
+
+- **Purpose:** Downloads commits, objects, and refs from another repository. 
+
+- **Usage:** 
+
+  - `$ git fetch <repository URL>`: Fetches the complete repository. 
+
+  - `$ git fetch <branch URL> <branch name>`: Fetches from a specific branch. 
+
+  - `$ git fetch --all`: Fetches all branches simultaneously. 
+
+  
+
+### Git Pull / Pull Request 
+
+- **Git Pull:** Receives data from a remote repository to update the local repository. 
+
+  - Syntax: `$ git pull <option> [<repository URL> <refspec>...]` 
+
+- **Pull Request:** Notifies team members of completed work for review and merging. 
+
+  
+
+### Git Push 
+
+- **Purpose:** Uploads local repository content to a remote repository. 
+
+- **Usage:**  
+
+  - `$ git push <option> [<Remote URL> <branch name> <refspec>...]` 
+
+  - `$ git push origin master`: Pushes local content to the master branch of the remote repository. 
+
+- **Options:** Includes various options like `--all`, `--prune`, `--mirror`, `--dry-run`, `--tags`, `--delete`, `-u`. 
+
+  
+
+### Git Force Push 
+
+- **Purpose:** Pushes local repository changes to the remote repository without conflict handling. 
+
+- **Usage:** 
+
+  - `$ git push <remote> <branch> -f` or `$ git push <remote> <branch> --force` 
+
+  - `$ git push <remote> <branch> --force-with-lease` for a safe force push. 
+
+  
+
+### Delete a Remote Branch 
+
+- **Purpose:** Removes a remote branch from the command line. 
+
+- **Usage:** `$ git push origin --delete <branch name>` 
+
